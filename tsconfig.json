@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+
+    "jsx": "react-jsx",
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "moduleDetection": "force",
+    "module": "preserve",
+    "resolveJsonModule": true,
+    "allowJs": true,
+
+    "strict": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist/es",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
+  },
+  "include": ["./index.ts", "./components/**/*"]
+}

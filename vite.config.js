@@ -5,7 +5,7 @@ export default {
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: './index.js',
+      input: './index.ts',
       external: ['react', 'react/jsx-runtime'],
       output: [
         {
@@ -21,8 +21,8 @@ export default {
           preserveModules: true,
         },
       ],
-      preserveEntrySignatures: 'strict'
+      preserveEntrySignatures: 'strict',
     },
     sourcemap: true,
-  }
+  },
 }
