@@ -12,9 +12,11 @@
   "scripts": {
     "dev": "vite build --watch",
     "build": "vite build && tsc",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky"
   },
   "peerDependencies": {
+    "@commitlint/config-conventional": "^19.2.2",
     "react": "^18",
     "react-dom": "^18"
   },
@@ -23,7 +25,9 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "commitlint": "^19.4.0",
     "eslint": "^9.9.0",
+    "lint-staged": "^15.2.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "typescript": "^5.5.4",
