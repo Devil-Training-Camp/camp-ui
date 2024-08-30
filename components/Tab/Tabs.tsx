@@ -11,16 +11,16 @@ const TabButton = styled.button<{ $isActive: boolean }>`
   padding: 8px 16px;
   font-size: 14px;
   font-weight: 500;
-  color: ${props => props.$isActive ? props.theme['base-color-gray-9'] : props.theme['base-color-gray-5']};
-  background-color: ${props => props.$isActive ? props.theme['base-color-gray-1'] : 'transparent'};
+  color: ${props => props.$isActive ? props.theme['text-color'] : props.theme['text-quaternary-color']};
+  background-color: ${props => props.$isActive ? props.theme['background-color-active'] : 'transparent'};
   border: none;
   cursor: pointer;
   transition: color 0.3s, background-color 0.3s;
   border-radius: 4px;
 
   &:hover {
-    color: ${props => props.$isActive ? props.theme['base-color-gray-9'] : props.theme['base-color-gray-7']};
-    background-color: ${props => props.$isActive ? props.theme['base-color-gray-1'] : props.theme['base-color-gray-0']};
+    color: ${props => props.$isActive ? props.theme['text-color'] : props.theme['text-quaternary-color-hover']};
+    background-color: ${props => props.$isActive ? props.theme['background-color-active'] : props.theme['background-color-hover']};
   }
 `
 
