@@ -96,4 +96,8 @@ export const functionalColor = {
   'text-tertiary-color-hover': color['base-color-gray-2'],
   'text-quaternary-color': color['base-color-gray-4'],
   'text-quaternary-color-hover': color['base-color-gray-3'],
+
+  'border-color': color['base-color-gray-7'],
+  'border-secondary-color': color['base-color-gray-8'],
+  'border-tertiary-color': color['base-color-gray-9'],
 }
