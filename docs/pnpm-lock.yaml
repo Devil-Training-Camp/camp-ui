@@ -11,6 +11,9 @@ dependencies:
   react-dom:
     specifier: ^18.3.1
     version: 18.3.1(react@18.3.1)
+  untitledui-js-base:
+    specifier: ^1.1.1
+    version: 1.1.1(react-dom@18.3.1)(react@18.3.1)
 
 devDependencies:
   '@chromatic-com/storybook':
@@ -5955,6 +5958,16 @@ packages:
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.6.2
     dev: true
+
+  /untitledui-js-base@1.1.1(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-nSg82G1g2obasswD1xloBkR7H1as6egoi9fKnfUWbxCGBCpxgwU+tN+5OztrdRyOazBsRxMoDkgA19AtGpmdVA==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    dev: false
 
   /update-browserslist-db@1.1.0(browserslist@4.23.3):
     resolution: {integrity: sha512-EdRAaAyk2cUE1wOf2DkEhzxqOQvFOoRJFNS6NeyJ01Gp2beMRpBAINjM2iDXE3KCuKhwnvHIQCJm6ThL2Z+HzQ==}
