@@ -6,7 +6,7 @@ export default {
   build: {
     rollupOptions: {
       input: './index.ts',
-      external: ['react', 'react/jsx-runtime', 'styled-components'],
+      external: ['react', 'react-dom', 'react/jsx-runtime', 'styled-components'],
       output: [
         {
           format: 'es',
