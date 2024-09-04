@@ -1,0 +1,10 @@
+{
+  "name": "camp-monorepo",
+  "packageManager": "pnpm@8.15.4",
+  "scripts": {
+    "dev:camp-ui": "turbo dev --filter=camp-ui --filter=camp-ui-docs"
+  },
+  "devDependencies": {
+    "turbo": "^2.1.1"
+  }
+}
