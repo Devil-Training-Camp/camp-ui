@@ -10,6 +10,7 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "camp-ui": "workspace:^",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "untitledui-js-base": "^1.1.1"
