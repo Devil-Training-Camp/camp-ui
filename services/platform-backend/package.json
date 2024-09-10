@@ -1,0 +1,18 @@
+{
+  "name": "platform-backend",
+  "version": "0.0.1",
+  "private": "true",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "pm2 start ecosystem.config.js",
+    "stop": "pm2 stop ecosystem.config.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "pm2": "^5.4.2",
+    "vite-plugin-node": "^3.1.0"
+  }
+}
